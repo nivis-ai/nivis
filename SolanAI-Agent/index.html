@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex - Next Generation AI Agent Framework</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="canvas"></div>
+    <div class="content">
+        <div class="navbar">
+            <div class="logo">Vortex</div>
+            <div class="nav-buttons">
+                <button id="connect-wallet" class="wallet-btn">Connect Wallet</button>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1>The Future of <span class="highlight">AI Agents</span></h1>
+                <p>Unleash the power of autonomous AI agents with advanced capabilities</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/yourusername/Vortex" target="_blank" class="github-btn">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+                        View on GitHub
+                    </a>
+                    <a href="https://twitter.com/VortexAI" target="_blank" class="twitter-btn">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter">
+                        Follow us
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <h3>Autonomous Agents</h3>
+                <p>Create AI agents that can interact with Solana blockchain independently</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Powered by Solana's ultra-fast blockchain technology</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Secure & Reliable</h3>
+                <p>Built with enterprise-grade security and reliability in mind</p>
+            </div>
+        </div>
+
+        <div class="wallet-status">
+            <p id="wallet-address"></p>
+            <p id="wallet-balance"></p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Vortex. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
