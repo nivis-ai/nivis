@@ -10,7 +10,7 @@ from langchain.schema import AgentAction, AgentFinish
 class CustomPromptTemplate(StringPromptTemplate):
     template: str
     tools: List[Tool]
-    
+     
     def format(self, **kwargs) -> str:
         intermediate_steps = kwargs.pop("intermediate_steps")
         thoughts = ""
