@@ -1,7 +1,7 @@
 import pytest
 from src.agent import VortexAgent
 from src.tools import get_default_tools
-
+ 
 @pytest.fixture
 def agent():
     return VortexAgent(tools=get_default_tools())
