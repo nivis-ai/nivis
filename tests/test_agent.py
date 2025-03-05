@@ -6,7 +6,6 @@ from src.tools import get_default_tools
 def agent():
     return VortexAgent(tools=get_default_tools())
 
-
 @pytest.mark.asyncio
 async def test_agent_basic_query(agent):
     result = await agent.run("What is 2 + 2?")
